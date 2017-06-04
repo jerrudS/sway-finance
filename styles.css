@@ -1,10 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(https://www.swayfinance.com/images/bigbackground.png);
   font-family: 'Roboto';
   line-height: 20px;
 }
 
-img {
+#logo {
   margin-top: 65px;
   max-width: 100%;
   vertical-align: middle;
@@ -43,4 +47,9 @@ a {
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
+}
+
+.mainimage {
+  vertical-align: middle;
+  margin: 100px 200px;
 }
