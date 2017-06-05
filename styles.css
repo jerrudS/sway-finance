@@ -1,10 +1,14 @@
-* {}
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-image: url(https://www.swayfinance.com/images/bigbackground.png);
+  font-family: 'Roboto';
+  line-height: 20px;
 }
 
-img {
+#logo {
   margin-top: 65px;
   max-width: 100%;
   vertical-align: middle;
@@ -16,7 +20,6 @@ img {
 a {
   margin-top: 65px;
   float: right;
-  font-family: 'Roboto';
   font-size: 15px;
   text-decoration: none;
   color: #728993;
@@ -25,4 +28,23 @@ a {
 .security {
   margin-right: 250px;
   margin-left: 30px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+}
+
+.general {
+  font-size: 37px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.specific {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
 }
