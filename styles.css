@@ -48,3 +48,8 @@ a {
   font-weight: 200;
   letter-spacing: 1px;
 }
+
+.mainimage {
+  vertical-align: middle;
+  margin: 100px 200px;
+}
